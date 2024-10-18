@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wonderful-Indonesia</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar1" >
+        <div class="container1">
+          <a href="#" class="logo" id="Home">
+            Wonderful <br /><span class="logo-highlight">Indonesia</span>
+          </a>
+          <ul class="menu">
+            <li><a href="#welcome">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#tours">Recommendations</a></li>
+            <li><a href="#contact-us">Contact</a></li>
+            <li><a href="#review">Review</a></li>
+  
+          </ul>
+          <div class="social-links">
+            <a href="https://instagram.com" target="_blank" class="social-media">
+              <img
+                src="asset/Instagram_icon.png.webp"
+                alt="Instagram"
+                class="social-icon instagram-icon"
+              />
+            </a>
+            <a href="https://x.com/?lang=id" target="_blank" class="social-media">
+              <img
+                src="asset/1725374683twitter-x-logo.png"
+                alt="Twitter"
+                class="social-icon twitter-icon"
+              />
+            </a>
+          </div>
+          <button class="tombol">&#9776;</button>
+        </div>
+      </nav>
+  
+      <section class="welcome-section" id="welcome">
+        <div class="welcome-text">
+          <h1>Welcome To <span style="color: red;">Indo</span>nesia</h1>
+          <p>Let's explore tourism in Indonesia</p>
+        </div>
+    </section>
+
+
+    <section class="about-section" id="About">
+        <div class="text-container">
+          <h2 style="text-align: center;">About Us</h2>
+          <p>
+            Indonesia, the world's largest archipelagic country, is a treasure
+            trove of diverse landscapes, rich cultures, and unforgettable
+            experiences. Spanning over 17,000 islands, this Southeast Asian gem
+            offers a kaleidoscope of attractions that cater to every type of
+            traveler. From the lush rainforests of Sumatra to the pristine
+            beaches of Bali, the ancient temples of Java to the komodo dragons
+            of Flores, Indonesia is a land of contrasts and beauty. Dive into
+            crystal-clear waters teeming with marine life in Raja Ampat, witness
+            the majesty of active volcanoes like Mount Bromo, or immerse
+            yourself in the unique traditions of Toraja. Indonesian cuisine is
+            as diverse as its landscape, offering a tantalizing array of flavors
+            that reflect the country's multicultural heritage. Whether you're
+            seeking adventure, relaxation, cultural experiences, or culinary
+            delights, Indonesia promises a journey that will captivate your
+            senses and leave you with memories to last a lifetime.
+          </p>
+        </div>
+        <div class="image-container">
+          <img src="asset/GWK-BALI.jpeg" class="w-100, col-12" alt="Deskripsi Gambar" />
+        </div>
+      </section>
+
+      <section class="tours" id="tours">
+        <div class="tours-container">
+          <h1 style="text-align: center; font-size: 2.5rem;">Recommendations</h1>
+
+            <div class="tour-cards">
+                <div class="tour-card">
+                  <img src="asset/Raja-Ampat/Raja-Ampat.jpeg" alt="Raja Ampat" />
+                  <div class="tour-card-content">
+                    <h3>Raja Ampat</h3>
+                    <p>
+                      Experience you will get if you visit Raja Ampat includes
+                      snorkeling, diving, and exploring the island and forest.
+                    </p>
+                    <a href="Page/RajaAmpat.html" class="btn btn-danger">View Details</a>
+                  </div>
+                </div>
+                <div class="tour-card">
+                  <img src="asset/Bromo/download.jpeg" alt="Bromo Mountain" />
+                  <div class="tour-card-content">
+                    <h3>Bromo Mountain</h3>
+                    <p>
+                      Experience you will get if you visit Gunung Bromo includes
+                      watching the sunrise, riding a horse in the desert, and
+                      visiting the crater.
+                    </p>
+                    <a href="Page/bromo.html" class="btn btn-danger">View Details</a>
+                  </div>
+                </div>
+                <div class="tour-card">
+                  <img
+                    src="asset/Labuan-Bajo/Komodo National Park, Labuan Bajo, Flores, Indonesia 🇮🇩.jpeg"
+                    alt="Labuan Bajo"
+                  />
+                  <div class="tour-card-content">
+                    <h3>Labuan Bajo</h3>
+                    <p>
+                      Explore you will get if visiting Labuan Bajo includes
+                      snorkeling, diving, and seeing the komodo dragon.
+                    </p>
+                    <a href="Page/LabuanBajo.html" class="btn btn-danger">View Details</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </section>
+
+      
+      <section class="contact-section">
+        <div class="container" id="contact-us">
+            <h1 style="text-align: center; font-size: 2.5rem; margin-top: 50px;">Contact Us</h1>
+            <div class="content">
+                <div class="contact-form">
+                    <h2>Send us a message</h2>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject:</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                        <a href="#welcome" class="btn-primary1">Send Message</a>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <h2>Contact Information</h2>
+                    <p>If you have any questions about visiting Indonesia, please don't hesitate to contact us:</p>
+                    <p>Email: info@indonesia-tourism.com</p>
+                    <p>Phone: +62 21 123 4567</p>
+                    <p>Address: SMKN 8 MALANG<br>
+                       Jalan Teluk Pacitan,Arjosari,Kec.Blimbing<br>
+                       Malang 65126, Indonesia
+                    </p>
+                    <p>We're excited to help you plan your journey to Wonderful Indonesia!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="review-section" id="review">
+      <div class="text-container" style="margin-right: 0px;">
+          <h2 style="text-align: center;">Review</h2>
+        </div>
+        <div class="testimoni-container" id="testimoni">
+          <div id="carouselExampleFade" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row">
+                  <div class="col-lg-4">
+                    <div class="testimoni">
+                      <img src="asset/WhatsApp Image 2024-10-16 at 08.56.26_ca497cab.jpg" alt="Charlie Low" class="photo" />
+                      <h3>Danang Putro Baskoro</h3>
+                      <p class="role">Siswa</p>
+                      <p class="stars">★★★★★</p>
+                      <p class="comment">
+                        Saya mengunjungi bromo karena bromo adalah salah satu destinasi yang wajib dikunjungi kalau lagi di malang.
+                        siapa yang ga kepengen ke bromo coba hehe.
+                        segala view bener bener memanjakan mata bangettt. tapi ya cuma panas bgt emang wkwkwk.
+                        segala sudut itu spot foto banget.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="testimoni">
+                      <img src="asset/WhatsApp Image 2024-10-16 at 08.56.53_c088f404.jpg" alt="Charlie Low" class="photo" />
+                      <h3>Gilang Angger Pratama </h3>
+                      <p class="role">siswa</p>
+                      <p class="stars">★★★★★</p>
+                      <p class="comment">
+                        Raja Ampat adalah gugusan pulau2 cantik dan relatif tenang dan bersahabat. Salahsatu pusat destinasi wisata snorkeling, dikenal kekayaan biota lautnya
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="testimoni">
+                      <img src="asset/WhatsApp Image 2024-10-16 at 08.58.55_d6949432.jpg" alt="Charlie Low" class="photo" />
+                      <h3>Satria Farras Darwisy</h3>
+                      <p class="role">siswa</p>
+                      <p class="stars">★★★</p>
+                      <p class="comment">
+                        saya mengunjungi labuan bajo karena disana memiliki banyak tempat
+                        wisata seperti mendaki dan melihat sunset.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-lg-4">
+                    <div class="testimoni">
+                      <img src="asset/WhatsApp Image 2024-10-17 at 08.37.12_da5d1772.jpg" alt="Charlie Low" class="photo" />
+                      <h3>Kawakibi Ubaidillah</h3>
+                      <p class="role">siswa</p>
+                      <p class="stars">★★★★★</p>
+                      <p class="comment">
+                        Bagi yang mau melihat komodo dari jarak dekat, dan di alam liar di habitat asli komodo, tentunya didampingi ranger yang bersiap untuk menghalau kalau ada komodo. Waktu yang direkomendasikan adalah sebelum siang hari.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="testimoni">
+                      <img src="asset/WhatsApp Image 2024-10-17 at 15.43.55_35d0e3b6.jpg" alt="Charlie Low" class="photo" />
+                      <h3>Detha Andia Waluyuo</h3>
+                      <p class="role">siswa</p>
+                      <p class="stars">★★★★★</p>
+                      <p class="comment">
+                        Bagus baget asli, dari sorong ke pelabuhan menuju pelabuhan waisai kapal cepat ±2 jam rp 125.000 pulang pergi ya 250rb. Dari waisai naik speedboat (sewa) ±9jt isi 10-15 orang perjalanan ke beberapa detinasi Raja Ampat, Telaga Bintang, Pasir timbul, dll.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="testimoni">
+                      <img src="asset/WhatsApp Image 2024-10-17 at 15.43.56_89388a5d.jpg" alt="Charlie Low" class="photo" />
+                      <h3>M Topaz</h3>
+                      <p class="role">siswa</p>
+                      <p class="stars">★★★★</p>
+                      <p class="comment">
+                        Gunung Bromo jos, pemandangan sunrise yang mantab jiwa, tantangan berjalan kaki ke puncak kawah membikin sensasi yang sangat luar biasa
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+    </section>
+      </main>
+  
+    <script src="script.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
